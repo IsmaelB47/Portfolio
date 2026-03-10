@@ -291,7 +291,7 @@ body {
 /* Show fallback icon if image fails to load */
 .profile-img img:not([src]), 
 .profile-img img[src=""], 
-.profile-img img[src="your-photo.jpg"] {
+.profile-img img[src="res.jpg"] {
     display: none;
 }
 
@@ -1225,4 +1225,5 @@ section {
 
 @keyframes spin {
     to { transform: rotate(360deg); }
+
 }
